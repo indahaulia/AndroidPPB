@@ -13,16 +13,18 @@
         android:id="@+id/FirstFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"
+        android:backgroundTint="@color/teal_700"
         android:text="Fragment Pertama"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        app:iconTint="@color/black"
+        app:rippleColor="@color/black" />
 
     <Button
         android:id="@+id/SecondFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/cardview_light_background"
+        android:backgroundTint="@color/black"
         android:text="Fragment Kedua"
         android:textColor="@color/white"
         android:textSize="20sp" />
